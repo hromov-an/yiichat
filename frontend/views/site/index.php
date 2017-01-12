@@ -13,7 +13,10 @@ $this->title = 'My Yii Application';
 
         <?php
         if(Yii::$app->user->isGuest)
-            echo '<p>Для доступа вам надо Авторизоваться!</p> <p><a class="btn btn-lg btn-success" href="/site/login">Login</a></p>';
+            echo '<p>Для доступа вам надо Авторизоваться!</p>
+            <p><a class="btn btn-lg btn-success" href="/site/login">Войти</a></p>
+            <p>или Зарегистрироваться</p>
+            <p><a class="btn btn-lg btn-success" href="/site/signup">Зарегистрироваться</a></p>';
         ?>
 
     </div>
